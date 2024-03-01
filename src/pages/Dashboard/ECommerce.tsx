@@ -11,6 +11,9 @@ import DefaultLayout from '../../layout/DefaultLayout';
 const ECommerce: React.FC = () => {
   return (
     <DefaultLayout>
+      <div >
+        <h4 className="text-xl font-semibold text-black dark:text-white" style={{fontSize: '35px', marginBottom:'25px', textAlign: 'center'}} >BENGALURU POLICE DASHBOARD</h4>
+      </div>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 xl:grid-cols-4 2xl:gap-7.5">
         <CardDataStats title="Total Cases" total="56" rate="0.43%" levelDown>
           <svg
